@@ -1,7 +1,7 @@
 --- 
 layout: post
-catagority: [数据变形]
-tag: [数据变形]
+category: [数据变形]
+tags: [数据变形]
 title: 个性化数据变形问题处理 
 --- 
 ### 问题来源 ###
