@@ -14,3 +14,5 @@ tags: [Skill,Ruby,Linux]
     make
     make install
     ruby --version
+
+--EOF--
