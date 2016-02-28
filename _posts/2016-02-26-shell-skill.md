@@ -11,4 +11,8 @@ title: SHELL技巧
     EOF
     } | su - oracle | tee -a $LOG
 
+获得当前执行目录
+
+    currdir=`cd dirname($0) && pwd`
+
 --EOF--
