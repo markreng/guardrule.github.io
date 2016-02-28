@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 在SUSE内安装Ruby
-category: [Skill]
-tags: [Skill,Ruby,Linux]
 ---
+
 ### 在SUSE内安装Ruby ###
 下载源代码：
 > http://www.ruby-lang.org/en/downloads/
