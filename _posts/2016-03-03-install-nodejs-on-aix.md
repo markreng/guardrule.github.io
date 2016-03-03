@@ -5,8 +5,11 @@ title: 在UNIX平台安装Node.js
 ### 在SUSE Linux 11安装nodejs ### 
 官网下载tar.xz文件，并复制解压: 
 
-    xz -d xxxx.tar.xz 
-    mv node /opt/node 
+    xz -d xxxx.tar.xz
+    mv node /opt/node
+    ./configure
+    make
+    make install
 
 在PATH中添加/opt/node/bin 
 
@@ -15,10 +18,11 @@ title: 在UNIX平台安装Node.js
     node --version 
 
 ### 在AIX7.1安装nodejs ### 
-在nodejs.org和ibm官网下载以下文件： 
-> ibm-4.3.1.0-node-v4.3.1-aix-ppc64.bin 
-> libgcc-4.8.3-1.aix7.1.ppc.rpm 
-> libstdc++-4.8.3-1.aix7.1.ppc.rpm 
+在nodejs.org和ibm官网下载以下文件：
+
+    ibm-4.3.1.0-node-v4.3.1-aix-ppc64.bin 
+    libgcc-4.8.3-1.aix7.1.ppc.rpm 
+    libstdc++-4.8.3-1.aix7.1.ppc.rpm 
 
 安装库文件: 
 
@@ -30,9 +34,10 @@ title: 在UNIX平台安装Node.js
     chmod 777 ibm-4.3.1.0-node-v4.3.1-aix-ppc64.bin 
     ./ibm-4.3.1.0-node-v4.3.1-aix-ppc64.bin 
     
-在PATH中添加参数: 
-> export LD_LIBRARY_PATH=/opt/freeware/lib64 
-> export PATH=$PATH:/ibm/node/bin 
+在PATH中添加参数:
+
+    export LD_LIBRARY_PATH=/opt/freeware/lib64 
+    export PATH=$PATH:/ibm/node/bin 
 
 测试: 
 
