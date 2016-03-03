@@ -1,3 +1,7 @@
+---
+layout: post
+title: 在UNIX平台安装Node.js
+---
 ### 在SUSE Linux 11安装nodejs ### 
 官网下载tar.xz文件，并复制解压: 
 
