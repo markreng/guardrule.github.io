@@ -2,7 +2,7 @@
 layout: post
 title: 在UNIX平台安装Node.js
 ---
-### 在SUSE Linux 11安装nodejs ### 
+## 在SUSE Linux 11安装nodejs
 官网下载tar.xz文件，并复制解压: 
 
     xz -d xxxx.tar.xz
@@ -17,7 +17,8 @@ title: 在UNIX平台安装Node.js
 
     node --version 
 
-### 在AIX7.1安装nodejs ### 
+## 在AIX7.1安装nodejs
+
 在nodejs.org和ibm官网下载以下文件：
 
     ibm-4.3.1.0-node-v4.3.1-aix-ppc64.bin 
